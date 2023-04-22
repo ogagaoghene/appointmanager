@@ -15,7 +15,8 @@ export default {
   name: 'App',
   data() {
     return {
-      appointments: []
+      appointments: [],
+      appointmentIndex: 0
     }
   },
   components: {
@@ -23,7 +24,11 @@ export default {
   },
   mounted() {
     axios.get("./data/appointments.json")
-          .then(response => (this.appointments = response.data))
+          .then(response => (this.appointments = response.data.map(item => {
+            item.appointmentId = this.appointmentIndex;
+            this.appointmentIndex++;
+            return item;
+          })))
   },
   methods: {
     removeItem: function(appointment) {

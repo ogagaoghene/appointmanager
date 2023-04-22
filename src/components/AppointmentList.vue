@@ -1,7 +1,7 @@
 <template>
     <div class="col-12 col-md-10 col-lg-7">
         <div class="list-group list-group-flush">
-            <div class="list-group-item d-flex align-items-start" v-for="(item, index) in appointments" v-bind:key="index">
+            <div class="list-group-item d-flex align-items-start" v-for="item in appointments" :key="item.appointmentIndex">
                 <button
                     class="me-2 btn btn-sm btn-danger"
                     @click="$emit('remove', item)"
