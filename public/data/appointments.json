@@ -1,0 +1,27 @@
+[
+    
+    {
+      "petName": "Sparrow",
+      "petOwner": "Jega Esi",
+      "appointmentDate": "2023-04-22 7:30",
+      "appointmentNotes": "This German Shephard is having some back pain"
+    },
+    {
+      "petName": "Goldie",
+      "petOwner": "Bamidele Salimonu",
+      "appointmentDate": "2023-03-12 10:30",
+      "appointmentNotes": "This Goldfish has some weird spots in the belly"
+    },
+    {
+      "petName": "Mitten",
+      "petOwner": "Ofure Precious",
+      "appointmentDate": "2023-02-02 8:30",
+      "appointmentNotes": "Cat has excessive hairballs"
+    },
+    {
+        "petName": "Buffy",
+        "petOwner": "Michael Douglas",
+        "appointmentDate": "2023-01-02 14:30",
+        "appointmentNotes": "This Chihuahua has not eaten for three days and it is lethargic"
+      }
+]
