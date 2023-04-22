@@ -4,6 +4,7 @@
             <div class="list-group-item d-flex align-items-start" v-for="(item, index) in appointments" v-bind:key="index">
                 <button
                     class="me-2 btn btn-sm btn-danger"
+                    @click="$emit('remove', item)"
                 >
                 <font-awesome-icon icon="trash" />
                 </button>
